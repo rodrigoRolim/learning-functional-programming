@@ -10,6 +10,8 @@ and so on
 
 #### to execute the project run 
 ```
+cd examples
+npm i
 npm run start
 ```
 and access localhost:3000 in your browser
