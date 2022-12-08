@@ -45,12 +45,8 @@ const privateCounter = (() => {
 privateCounter();
 privateCounter();
 
-
-
-
 const credits = ((num) => {
   let credits = num;
-  console.log("initial creadits value:", credits);
   return () => {
     credits -= 1;
     if (credits > 0) console.log("playing game", credits, "credits(s) remaining");
